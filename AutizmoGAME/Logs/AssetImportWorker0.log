@@ -1,0 +1,493 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.2f1 (d6360bedb9a0) revision 14038539'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'en' Physical Memory: 8112 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Bozgy/Desktop/Autismo - The Game/AutizmoGAME/AutizmoGAME
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58240
+Successfully changed project path to: C:/Users/Bozgy/Desktop/Autismo - The Game/AutizmoGAME/AutizmoGAME
+C:/Users/Bozgy/Desktop/Autismo - The Game/AutizmoGAME/AutizmoGAME
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 361.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.2f1 (d6360bedb9a0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Bozgy/Desktop/Autismo - The Game/AutizmoGAME/AutizmoGAME/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce 840M (ID=0x1341)
+    Vendor:   NVIDIA
+    VRAM:     2010 MB
+    Driver:   30.0.15.1215
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56908
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010839 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 119.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.991 seconds
+Domain Reload Profiling:
+	ReloadAssembly (992ms)
+		BeginReloadAssembly (121ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (698ms)
+			LoadAssemblies (118ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (164ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (416ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (119ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (209ms)
+				ProcessInitializeOnLoadMethodAttributes (74ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008634 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Bozgy\Desktop\Autismo - The Game\AutizmoGAME\AutizmoGAME\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Bozgy\Desktop\Autismo - The Game\AutizmoGAME\AutizmoGAME\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.819 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1820ms)
+		BeginReloadAssembly (184ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (1441ms)
+			LoadAssemblies (168ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (496ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (84ms)
+			SetupLoadedEditorAssemblies (643ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (185ms)
+				ProcessInitializeOnLoadAttributes (388ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.66 seconds
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3360 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (112.1 KB). Loaded Objects now: 3817.
+Memory consumption went from 115.6 MB to 115.5 MB.
+Total: 4.589100 ms (FindLiveObjects: 0.369200 ms CreateObjectMapping: 0.351000 ms MarkObjects: 3.700000 ms  DeleteObjects: 0.167600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 140019.234292 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79842766b460edbeab6a34051e857a80') in 0.017222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011771 seconds.
+  path: Assets/Models
+  artifactKey: Guid(96bf8cd16c65a5146ae83bbbecd847bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models using Guid(96bf8cd16c65a5146ae83bbbecd847bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36c1091afd48f6453f3d8e633d60a5b0') in 0.020475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.617501 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(586e2676bf3927c4da2d4acde95e64bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(586e2676bf3927c4da2d4acde95e64bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37e26e94cf4ec7d95093fe910941b758') in 0.013638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 526.224666 seconds.
+  path: Assets/Models/man
+  artifactKey: Guid(cc627c6b934b6cf4ab4e4290e832c4f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/man using Guid(cc627c6b934b6cf4ab4e4290e832c4f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7517343cb7fe63ea44e5a3d3d632614c') in 0.017159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.185936 seconds.
+  path: Assets/Models/man/man3.Fbx
+  artifactKey: Guid(60ba810aaf35aa9499d38bf8d3ad0ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/man/man3.Fbx using Guid(60ba810aaf35aa9499d38bf8d3ad0ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dd5a6102740567910d45815f12667b3') in 11.855514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Models/man/man3.fbm/Std_Eye_L_Pbr_Normal.png
+  artifactKey: Guid(a4be75d4a5cda9a42a0263322f38a42f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/man/man3.fbm/Std_Eye_L_Pbr_Normal.png using Guid(a4be75d4a5cda9a42a0263322f38a42f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a97fc8c3aa0b8f594df87d710549ff27') in 1.479765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Models/man/man3.fbm/Std_Nails_Pbr_Normal.png
+  artifactKey: Guid(a5f306e2fa437a6428605475c0dcf2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/man/man3.fbm/Std_Nails_Pbr_Normal.png using Guid(a5f306e2fa437a6428605475c0dcf2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c58f1543216ede355573706bf41d9d90') in 0.110370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Models/man/man3.fbm/Std_Tongue_Pbr_Normal.jpg
+  artifactKey: Guid(7bb63fede3f23624ba370541d3c90c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/man/man3.fbm/Std_Tongue_Pbr_Normal.jpg using Guid(7bb63fede3f23624ba370541d3c90c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dd73ba6cd27f01505cc18c9e9875435') in 0.072479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Models/man/man3.fbm/Std_Upper_Teeth_Pbr_Diffuse.png
+  artifactKey: Guid(d1fd971500cbe1d488ae7d398a988e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/man/man3.fbm/Std_Upper_Teeth_Pbr_Diffuse.png using Guid(d1fd971500cbe1d488ae7d398a988e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cff1e142bea2970188f2ae92c6ea7d2d') in 0.061973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Models/man/man3.fbm/Std_Skin_Body_Pbr_Normal.png
+  artifactKey: Guid(99ad94fd89607e846b7692b7d42bb780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/man/man3.fbm/Std_Skin_Body_Pbr_Normal.png using Guid(99ad94fd89607e846b7692b7d42bb780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baed0d431b645f610ee8b202c08d2467') in 0.040388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Models/man/man3.fbm/Std_Cornea_R_Pbr_Diffuse.png
+  artifactKey: Guid(7aec4f82db2684e4087a87c5a2ee0924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/man/man3.fbm/Std_Cornea_R_Pbr_Diffuse.png using Guid(7aec4f82db2684e4087a87c5a2ee0924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed49f5643671bdf2f97b888264f4c213') in 0.056075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models/man/man3.fbm/Hair_Transparency_Pbr_Diffuse.png
+  artifactKey: Guid(64f77d57393ae6e45b2423dbf6cfb5d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/man/man3.fbm/Hair_Transparency_Pbr_Diffuse.png using Guid(64f77d57393ae6e45b2423dbf6cfb5d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9908c721a4d894382e38901f5fd6b9f5') in 0.056137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Models/man/man3.fbm/Std_Eyelash_Pbr_Normal.png
+  artifactKey: Guid(37f8c2f037b145642b341e4ff890b307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/man/man3.fbm/Std_Eyelash_Pbr_Normal.png using Guid(37f8c2f037b145642b341e4ff890b307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c77be74071f3bb43665fe88fcd3433cd') in 0.041457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Models/man/man3.fbm/Scalp_Transparency_Pbr_Diffuse.png
+  artifactKey: Guid(2f781d1aac032eb4aab815d8d04e5d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/man/man3.fbm/Scalp_Transparency_Pbr_Diffuse.png using Guid(2f781d1aac032eb4aab815d8d04e5d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7741be1e74352b162bfe4437afd0bb9') in 0.034508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/man/man3.fbm/Std_Tongue_Pbr_Diffuse.jpg
+  artifactKey: Guid(4ecaeb730f908544c9b139d7f6b3f55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/man/man3.fbm/Std_Tongue_Pbr_Diffuse.jpg using Guid(4ecaeb730f908544c9b139d7f6b3f55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8b6c2ac2d9129f1880ed8f0da3e6566') in 0.067166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Models/man/man3.fbm/Std_Eye_L_Pbr_Diffuse.jpg
+  artifactKey: Guid(4a1cb2615e96b054e80eefe6fce42dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/man/man3.fbm/Std_Eye_L_Pbr_Diffuse.jpg using Guid(4a1cb2615e96b054e80eefe6fce42dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a7c13991a10126d1fb208e762ad971e') in 0.040176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Models/man/man3.fbm/Std_Upper_Teeth_Pbr_Normal.png
+  artifactKey: Guid(d17a1d4443f1c5e46a40bd59c74b0e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/man/man3.fbm/Std_Upper_Teeth_Pbr_Normal.png using Guid(d17a1d4443f1c5e46a40bd59c74b0e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '363c51bb278be1ce593088d209a6047c') in 0.047734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Models/man/man3.fbm/Std_Eye_R_Pbr_Diffuse.jpg
+  artifactKey: Guid(5213b45dbf1c05246aec1d2dc0d0b63b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/man/man3.fbm/Std_Eye_R_Pbr_Diffuse.jpg using Guid(5213b45dbf1c05246aec1d2dc0d0b63b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e712478cad10780507a22bd90bda53f2') in 0.043406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Models/man/man3.fbm/Std_Lower_Teeth_Pbr_Diffuse.png
+  artifactKey: Guid(4642a93addc119b4db9403c9842828a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/man/man3.fbm/Std_Lower_Teeth_Pbr_Diffuse.png using Guid(4642a93addc119b4db9403c9842828a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae1b00da1debf00112c1269321870f28') in 0.027785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/man/man3.fbm/Std_Eye_Occlusion_R_Pbr_Opacity.png
+  artifactKey: Guid(974cdfe626a7aca4ba954c5339df9d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/man/man3.fbm/Std_Eye_Occlusion_R_Pbr_Opacity.png using Guid(974cdfe626a7aca4ba954c5339df9d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f2a25f3322848a0eb804393d5accd91') in 0.029418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Models/man/man3.fbm/Std_Eye_R_Pbr_Normal.png
+  artifactKey: Guid(da3744efbaf9c9340b8147dfd177e6de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/man/man3.fbm/Std_Eye_R_Pbr_Normal.png using Guid(da3744efbaf9c9340b8147dfd177e6de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a89ab411d3ae385f2d6f81a0a78000b9') in 0.038717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Models/man/man3.fbm/Boxers_Pbr_Diffuse.png
+  artifactKey: Guid(cda9a86afcc51264094306ca986046b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/man/man3.fbm/Boxers_Pbr_Diffuse.png using Guid(cda9a86afcc51264094306ca986046b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e00308ebafc33caa99f5039cdd5eee5') in 0.043771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Models/man/man3.fbm/Std_Eyelash_Pbr_Diffuse.png
+  artifactKey: Guid(ca1d30a8a79c8224f9366f61213e8b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/man/man3.fbm/Std_Eyelash_Pbr_Diffuse.png using Guid(ca1d30a8a79c8224f9366f61213e8b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '908b18c62fc74adf53b9acad00a1b20c') in 0.060464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Models/man/man3.fbm
+  artifactKey: Guid(9400175b7abd2d14f9a6d665d701797f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/man/man3.fbm using Guid(9400175b7abd2d14f9a6d665d701797f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21ed7d18332c5efb59a9887cb8a27c78') in 0.017595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Models/man/man3.fbm/Std_Skin_Arm_Pbr_Normal.png
+  artifactKey: Guid(b7189f32eb30c094abb7c30b516c4721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/man/man3.fbm/Std_Skin_Arm_Pbr_Normal.png using Guid(b7189f32eb30c094abb7c30b516c4721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e744cc2dc35c7ebdb197e387607bb9ec') in 0.044580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Models/man/man3.fbm/Std_Lower_Teeth_Pbr_Normal.png
+  artifactKey: Guid(cdae1d38a355d6a46a6d720ca4374010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/man/man3.fbm/Std_Lower_Teeth_Pbr_Normal.png using Guid(cdae1d38a355d6a46a6d720ca4374010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acf0e9eed244046afaed9c52be2d862d') in 0.042757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Models/man/man3.fbm/Std_Skin_Arm_Pbr_Diffuse.jpg
+  artifactKey: Guid(d4219c464af2efe45a622c2bea2d70d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/man/man3.fbm/Std_Skin_Arm_Pbr_Diffuse.jpg using Guid(d4219c464af2efe45a622c2bea2d70d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5e2f53feacfa248088960a18f24a453') in 0.049108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Models/man/man3.json
+  artifactKey: Guid(ce394f0485dea8d4d9946f6ab819579b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/man/man3.json using Guid(ce394f0485dea8d4d9946f6ab819579b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fd28ad3e7090ea1eb1568365e0a96dc') in 0.207971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Models/man/man3.fbm/Std_Skin_Head_Pbr_Diffuse.jpg
+  artifactKey: Guid(5baf7a795c2d95a4bbf4c407d2da5734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/man/man3.fbm/Std_Skin_Head_Pbr_Diffuse.jpg using Guid(5baf7a795c2d95a4bbf4c407d2da5734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9255a43864279241145ad8c8b4faabc') in 0.024515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Models/man/man3.fbm/Std_Cornea_L_Pbr_Diffuse.png
+  artifactKey: Guid(d3f4bc2767ae38e468baa4eb56b719fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/man/man3.fbm/Std_Cornea_L_Pbr_Diffuse.png using Guid(d3f4bc2767ae38e468baa4eb56b719fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0d7cb311288aa1f65f3b20eec1bf302') in 0.038201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Models/man/man3.fbm/Std_Skin_Body_Pbr_Diffuse.jpg
+  artifactKey: Guid(8db5eec9f33143841bd3dcd55ee6962d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/man/man3.fbm/Std_Skin_Body_Pbr_Diffuse.jpg using Guid(8db5eec9f33143841bd3dcd55ee6962d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e998572212f2759c6e308b570391b255') in 0.061142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Models/man/man3.fbm/Std_Skin_Head_Pbr_Normal.png
+  artifactKey: Guid(5e6567a4c5f79a142869c538a4fe87df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/man/man3.fbm/Std_Skin_Head_Pbr_Normal.png using Guid(5e6567a4c5f79a142869c538a4fe87df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8a947c5a876c9232df19cec4b7bbe6e') in 0.163568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001324 seconds.
+  path: Assets/Models/man/man3.fbm/Std_Skin_Leg_Pbr_Normal.png
+  artifactKey: Guid(1266a59f719e83043a42f3569cd63e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/man/man3.fbm/Std_Skin_Leg_Pbr_Normal.png using Guid(1266a59f719e83043a42f3569cd63e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8195096569a2bb6c4ce823195068b63d') in 0.094350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Models/man/man3.fbm/Std_Skin_Leg_Pbr_Diffuse.jpg
+  artifactKey: Guid(4d57fbee10f28ff43b0c4a1274ca3a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/man/man3.fbm/Std_Skin_Leg_Pbr_Diffuse.jpg using Guid(4d57fbee10f28ff43b0c4a1274ca3a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '671b9f132dc03f75aae865fc211e109a') in 0.056818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.029671 seconds.
+  path: Assets/Models/man/man3.fbm/Boxers_Pbr_Normal.png
+  artifactKey: Guid(cf766678ea8164f45a5a5ad0852a98b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/man/man3.fbm/Boxers_Pbr_Normal.png using Guid(cf766678ea8164f45a5a5ad0852a98b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adf954a2aa5d99682b8889ab980aa0a8') in 0.025575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Models/man/man3.fbm/Std_Nails_Pbr_Diffuse.jpg
+  artifactKey: Guid(af619f8197ec43f45855708d6926e759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/man/man3.fbm/Std_Nails_Pbr_Diffuse.jpg using Guid(af619f8197ec43f45855708d6926e759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a6a38cb588a9aa9666eb646dec4545c') in 0.029485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Models/man/man3.fbm/Std_Tearline_R_Pbr_Opacity.png
+  artifactKey: Guid(00c62a76cabffa04f802fc1a8bec360d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/man/man3.fbm/Std_Tearline_R_Pbr_Opacity.png using Guid(00c62a76cabffa04f802fc1a8bec360d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cee64cc968c2ec53131e95a0f6eafae0') in 0.027898 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006988 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Bozgy\Desktop\Autismo - The Game\AutizmoGAME\AutizmoGAME\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Bozgy\Desktop\Autismo - The Game\AutizmoGAME\AutizmoGAME\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.496 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5497ms)
+		BeginReloadAssembly (3575ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (1781ms)
+			LoadAssemblies (3505ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (380ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (1125ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (229ms)
+				ProcessInitializeOnLoadAttributes (803ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3355 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (79.1 KB). Loaded Objects now: 3868.
+Memory consumption went from 133.2 MB to 133.1 MB.
+Total: 10.633400 ms (FindLiveObjects: 0.926800 ms CreateObjectMapping: 0.525900 ms MarkObjects: 9.074500 ms  DeleteObjects: 0.104800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013501 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Bozgy\Desktop\Autismo - The Game\AutizmoGAME\AutizmoGAME\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Bozgy\Desktop\Autismo - The Game\AutizmoGAME\AutizmoGAME\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.734 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2736ms)
+		BeginReloadAssembly (334ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (81ms)
+		EndReloadAssembly (2132ms)
+			LoadAssemblies (211ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (762ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (124ms)
+			SetupLoadedEditorAssemblies (912ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (36ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (178ms)
+				ProcessInitializeOnLoadAttributes (601ms)
+				ProcessInitializeOnLoadMethodAttributes (74ms)
+				AfterProcessingInitializeOnLoad (21ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3355 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (79.0 KB). Loaded Objects now: 3871.
+Memory consumption went from 133.2 MB to 133.1 MB.
+Total: 5.143300 ms (FindLiveObjects: 0.282500 ms CreateObjectMapping: 0.113400 ms MarkObjects: 4.632200 ms  DeleteObjects: 0.103700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
